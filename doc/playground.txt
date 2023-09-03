@@ -1,0 +1,36 @@
+                Dev playground
+
+Creator: Zoda
+Creation Date : 05/08/2023
+File Description:
+    It was created to identify and explain how the features to be added Work.
+
+=================================================
+
+Sound Point System:
+    Example Sound Point, decreases -1 every pixel
+
+    <===================================>
+                      -
+
+            0,0,0,0,0,0,0,0,0,0,0
+            0,1,1,1,1,1,1,1,1,1,0
+            0,2,2,2,2,4,2,2,2,2,2,0
+        0,3,3,3,3,4,3,3,3,3,3,0
+        -  0,0,1,2,3,4,4,4,3,2,1,0,0   +
+            0,3,3,3,3,3,3,3,3,3,0
+            0,2,2,2,2,2,2,2,2,2,0
+            0,1,1,1,1,1,1,1,1,1,0
+            0,0,0,0,0,0,0,0,0,0,0
+
+                      +
+
+    <===================================>
+    
+    starting value : 4
+    decrease value : -1
+    
+    logic = ((4/1) * 2) + 2
+    
+    (Fix This [IDK])
+
